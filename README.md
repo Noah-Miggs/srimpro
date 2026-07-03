@@ -33,14 +33,14 @@ Another important function can generate the combined damage dose and ion distrib
 ```
 multiRangeAndDpa(paths, labels, fluence, plot_style='combined', ref_layer=2)
 ```
-![3.25 MeV He in varying Al layer depths and Cu (combined damage dose profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-dpa-(combined).png)
-![3.25 MeV He in varying Al layer depths and Cu (combined ion distribution profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-ion-range-(combined).png)
+![3.25 MeV He in varying Al layer depths and Cu (combined damage dose profiles), fluence=6.7e15](example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-dpa-(combined).png)
+![3.25 MeV He in varying Al layer depths and Cu (combined ion distribution profiles), fluence=6.7e15](example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-ion-range-(combined).png)
 
 Another set of important functions can generate the normal or weighted primary recoil spectra plots shown below, which is useful for comparing irradiations by different particles (such as comparing ion and neutron irradiations), using the following code (for weighted spectra):
 ```
 weightedRecoilSpectra(paths, labels, excelpath=excelpath)
 ```
-![Cumulative weighted primary recoil spectra for 1 MeV H, 1 MeV He, and CANDU neutron flux spectrum in Zr-2.5%Nb](/example_plots/Weighted-cumulative-PKA-spectrum-for-1-MeV-H-and-He-and-CANDU-neutron-spectrum-in-Zr-2,5%Nb.png)
+![Cumulative weighted primary recoil spectra for 1 MeV H, 1 MeV He, and CANDU neutron flux spectrum in Zr-2.5%Nb](example_plots/Weighted-cumulative-PKA-spectrum-for-1-MeV-H-and-He-and-CANDU-neutron-spectrum-in-Zr-2,5%Nb.png)
 
 # Installation
 srimpro can easily be installed using the following command in Anaconda Prompt or similar application:
