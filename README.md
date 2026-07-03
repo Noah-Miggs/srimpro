@@ -16,9 +16,16 @@ vactot, novactot = totDisplacements(path, x1, x2)
 ## Basic SRIM Plots
 These functions are used to generate publication-quality plots or export data to excel, specfically for the data commonly used from SRIM. These include plotting ion distribution and damage dose, energy deposition, and stopping power. For example, the following code will generate the plot shown below:
 ```
-rangeAndDpa(path)
+rangeAndDpa(path, fluence)
 ```
 ![1.5 MeV Si in ZrN (1000 nm) Si (500 nm), 16,000 ions calculated](/example_plots/1.5-MeV-Si-in-ZrN-and-Si-ion-distribution-and-damage-dose.png)
+
+## Advanced SRIM Plots
+These functions provide advanced utilities, making use of SRIM data that is typically highly difficult to obtain and perform calculations with, preventing it from being used in the field despite its importance. These functions automatically extract this data, perform the necessary calculations, and generate publication-quality plots. For example, the following code will generate the combined damage dose and ion distribution plots shown below (damage dose from irradiation by multiple ion energies) which is very useful for uniform irradiation studies:
+```
+multiRangeAndDpa(paths, labels, fluence, plot_style='combined', ref_layer=2)
+```
+![3.25 MeV He in Cu](/example_plots)
 
 # Installation
 srimpro can easily be installed using the following command in Anaconda Prompt or similar application:
