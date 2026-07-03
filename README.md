@@ -40,7 +40,7 @@ Another set of important functions can generate the normal or weighted primary r
 ```
 weightedRecoilSpectra(paths, labels, excelpath=excelpath)
 ```
-![Cumulative weighted primary recoil spectra for 1 MeV H, 1 MeV He, and CANDU neutron flux spectrum in Zr-2.5%Nb](example_plots/Weighted-cumulative-PKA-spectrum-for-1-MeV-H-and-He-and-CANDU-neutron-spectrum-in-Zr-2,5%Nb.png)
+![Cumulative weighted primary recoil spectra for 1 MeV H, 1 MeV He, and CANDU neutron flux spectrum in Zr-2.5%Nb](/example_plots/Weighted-cumulative-PKA-spectrum-for-1-MeV-H-and-He-and-CANDU-neutron-spectrum-in-Zr-2,5%Nb.png)
 
 # Installation
 srimpro can easily be installed using the following command in Anaconda Prompt or similar application:
