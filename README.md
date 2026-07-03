@@ -34,6 +34,7 @@ Another important function can generate the combined damage dose and ion distrib
 multiRangeAndDpa(paths, labels, fluence, plot_style='combined', ref_layer=2)
 ```
 ![3.25 MeV He in varying Al layer depths and Cu (combined damage dose profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-dpa-(combined).png)
+![3.25 MeV He in varying Al layer depths and Cu (combined ion distribution profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-ion-range-(combined).png)
 
 Another set of important functions can generate the normal or weighted primary recoil spectra plots shown below, which is useful for comparing irradiations by different particles (such as comparing ion and neutron irradiations), using the following code (for weighted spectra):
 ```
