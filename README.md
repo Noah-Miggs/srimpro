@@ -29,12 +29,18 @@ collisionPlotXsection(path, x1, x2, scale='log')
 ![1.5 MeV Si in ZrN collision distribution side view, only ion-target collisions, 2000 ions used](example_plots/1.5-MeV-Si-in-ZrN-and-Si-collision-depth-distribution-(only-ZrN-layer)-2000-ions-only-PKA-collisions.png)
 ![1.5 MeV Si in ZrN collision distribution front view, only ion-target collisions, 2000 ions used](example_plots/1.5-MeV-Si-in-ZrN-and-Si-collision-distribution-xsection-(only-ZrN-layer)-2000-ions-only-PKA-collisions.png)
 
-Another important function will generate the combined damage dose and ion distribution plots shown below (damage dose from irradiation by multiple ion energies) which is useful for uniform irradiation studies, using the following code:
+Another important function can generate the combined damage dose and ion distribution plots shown below (damage dose from irradiation by multiple ion energies) which is useful for uniform irradiation studies, using the following code:
 ```
 multiRangeAndDpa(paths, labels, fluence, plot_style='combined', ref_layer=2)
 ```
 ![3.25 MeV He in varying Al layer depths and Cu (combined damage dose profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-dpa-(combined).png)
 ![3.25 MeV He in varying Al layer depths and Cu (combined ion distribution profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-ion-range-(combined).png)
+
+Another set of important functions can generate the normal or weighted primary recoil spectra plots shown below, which is useful for comparing irradiations by different particles (such as comparing ion and neutron irradiations), using the following code (for weighted spectra):
+```
+weightedRecoilSpectra(paths, labels, excelpath=excelpath)
+```
+![Cumulative weighted primary recoil spectra for 1 MeV H, 1 MeV He, and CANDU neutron flux spectrum in Zr-2.5%Nb](/example_plots)
 
 # Installation
 srimpro can easily be installed using the following command in Anaconda Prompt or similar application:
