@@ -27,7 +27,7 @@ collisionPlotDepth(path, x1, x2, scale='log')
 collisionPlotXsection(path, x1, x2, scale='log')
 ```
 ![1.5 MeV Si in ZrN collision distribution side view, only ion-target collisions, 2000 ions used](example_plots/1.5-MeV-Si-in-ZrN-and-Si-collision-depth-distribution-(only-ZrN-layer)-2000-ions-only-PKA-collisions.png)
-![1.5 MeV Si in ZrN collision distribution front view, only ion-target collisions, 2000 ions used](example_plots/1.5-MeV-Si-in-ZrN-and-Si-collision-distribution-xsection-(only-ZrN-layer)-2000 ions-only-PKA-collisions.png)
+![1.5 MeV Si in ZrN collision distribution front view, only ion-target collisions, 2000 ions used](example_plots/1.5-MeV-Si-in-ZrN-and-Si-collision-distribution-xsection-(only-ZrN-layer)-2000-ions-only-PKA-collisions.png)
 
 Another important function will generate the combined damage dose and ion distribution plots shown below (damage dose from irradiation by multiple ion energies) which is useful for uniform irradiation studies, using the following code:
 ```
