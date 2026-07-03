@@ -26,7 +26,7 @@ These functions provide advanced utilities, making use of SRIM data that is typi
 multiRangeAndDpa(paths, labels, fluence, plot_style='combined', ref_layer=2)
 ```
 ![3.25 MeV He in varying Al layer depths and Cu (combined damage dose profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-dpa-(combined).png)
-![3.25 MeV He in varying Al layer depths and Cu (combined ion distribution profiles), fluence=6.7e15](/example_plots)
+![3.25 MeV He in varying Al layer depths and Cu (combined ion distribution profiles), fluence=6.7e15](/example_plots/3.25-MeV-He-in-Al-and-Cu-high-fluence-ion-range-(combined).png)
 
 # Installation
 srimpro can easily be installed using the following command in Anaconda Prompt or similar application:
