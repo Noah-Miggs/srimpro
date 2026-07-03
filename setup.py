@@ -16,7 +16,7 @@ setup(
     description="Automated calculating, plotting, and exporting of SRIM data for streamlined analysis",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/Noah-Miggs/srimpro.git",
+    url="https://github.com/Noah-Miggs/srimpro",
     license="MIT",
     keywords='srim automation plotting material irradiation',
     packages=find_packages(),
