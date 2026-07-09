@@ -43,7 +43,7 @@ weightedRecoilSpectra(paths, labels, excelpath=excelpath)
 ![Cumulative weighted primary recoil spectra for 1 MeV H, 1 MeV He, and CANDU neutron flux spectrum in Zr-2.5%Nb](example_plots/Weighted-cumulative-PKA-spectrum-for-1-MeV-H-and-He-and-CANDU-neutron-spectrum-in-Zr-2,5%Nb.png)
 
 # Installation
-srimpro can easily be installed using the following command in Anaconda Prompt or similar application:
+To install srimpro, Git must be installed first. To install git, follow the official [GitHub instructions](https://github.com/git-guides/install-git). After installing git, srimpro can be easily be installed using the following command in Anaconda Prompt or similar application:
 ```
 pip install git+https://github.com/Noah-Miggs/srimpro.git
 ```
