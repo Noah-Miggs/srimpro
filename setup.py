@@ -21,5 +21,5 @@ setup(
     keywords='srim automation plotting material irradiation',
     packages=find_packages(),
     install_requires=["numpy>=2.4.0", "pandas>=3.0.3", "pysrim>=0.5.10", "openpyxl>=3.1.5"],
-    python_requires=">=3.14",
+    python_requires=">=3.11",
 )
