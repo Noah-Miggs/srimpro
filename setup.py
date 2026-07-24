@@ -10,7 +10,7 @@ from setuptools import setup, find_packages
 # Setup function so srimpro can be installed as a library with pip
 setup(
     name="srimpro",
-    version="1.3.2",
+    version="1.3.3",
     author="Noah Miggiani",
     author_email="noah.miggiani.srimpro@gmail.com",
     description="Automated calculating, plotting, and exporting of SRIM data for streamlined analysis",
